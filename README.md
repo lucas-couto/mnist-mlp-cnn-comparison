@@ -1,4 +1,4 @@
-# [Nome do seu Projeto, ex: mnist-mlp-cnn-comparison]
+# Comparação de CNN e MLP no MNIST
 
 ## 🤖 Visão Geral do Projeto
 
@@ -28,8 +28,8 @@ A **CNN** superou a **MLP** em termos de acurácia, precisão e recall. O que re
 1.  **Clone o Repositório:**
 
     ```bash
-    git clone [https://github.com/](https://github.com/)[seu-usuario]/[seu-repositorio].git
-    cd [seu-repositorio]
+    git clone https://github.com/lucas-couto/mnist-mlp-cnn-comparison.git
+    cd mnist-mlp-cnn-comparison
     ```
 
 2.  **Crie e Ative o Ambiente Conda:**
@@ -59,6 +59,9 @@ A **CNN** superou a **MLP** em termos de acurácia, precisão e recall. O que re
 - `requirements.yml`: Lista de todas as bibliotecas necessárias.
 - `README.md`: Este arquivo.
 - `models/`: Modelos de MLP e CNN.
+- `best_mnist_MLP_model.pth`: Contém o modelo MLP com a melhor época salvo. **(Gerado após o treinamento)**
+- `best_mnist_CNN_model.pth`: Contém o modelo CNN com a melhor época salvo. **(Gerado após o treinamento)**
+- `data/`: Contém o dataset MNIST. **(Gerado após a execução do script)**
 
 ## ✒️ Autor
 

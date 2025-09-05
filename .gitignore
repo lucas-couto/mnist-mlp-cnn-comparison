@@ -1,1 +1,4 @@
 */__pycache__/*
+data/
+best_mnist_MLP_model.pth
+best_mnist_CNN_model.pth
